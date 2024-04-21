@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white">
+      <div
+        class="flex gap-5 justify-between p-4 max-md:py-4 max-md:px-5 w-full max-md:flex-wrap max-md:max-w-full max-w-[1140px] m-auto"
+      >
+        <div class="flex my-auto">
+          <img
+            src="/images/logo.png"
+            class="max-w-full"
+            width="48px"
+            height="28px"
+          />
+          <img
+            src="/images/title.png"
+            class="hidden max-w-full sm:block"
+            width="198px"
+            height="28px"
+          />
+        </div>
+        <div
+          class="flex justify-between gap-3 text-base font-medium leading-6 md:gap-16 max-md:flex-wrap max-md:max-w-full"
+        >
+          <button
+            type="button"
+            class="hidden sm:block justify-center md:px-6 py-3.5 font-medium md:min-w-[164px] text-sky-900 whitespace-nowrap bg-white rounded md:border border-gray-200 border-solid max-md:px-5"
+          >
+            Services
+          </button>
+
+          <button
+            type="button"
+            class="flex gap-3 justify-center px-6 py-3.5 md:min-w-52 text-white bg-sky-900 rounded max-md:px-5 max-md:py-2 items-center"
+          >
+            <img src="/images/svg/call.svg" class="w-6 aspect-square" />
+            <div>Book a Call</div>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section
+        class="grid h-full min-h-screen py-24 bg-cover bg-hero-pattern place-content-center"
+      >
+        <div
+          class="max-w-[1140px] px-4 max-md:px-5 m-auto mt-2.5 max-md:max-w-full"
+        >
+          <div class="flex max-md:flex-col">
+            <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+              <div
+                class="flex flex-col self-stretch my-auto max-md:mt-4 max-md:max-w-full"
+              >
+                <h1
+                  class="text-[52px] font-medium text-slate-700 leading-[66px] max-md:max-w-full max-md:text-4xl max-md:leading-[56px]"
+                >
+                  <span class="text-sky-900"
+                    >Target lost leads <br />
+                    and</span
+                  >
+                  <span
+                    class="font-bold text-sky-900 z-10 relative before:absolute before:bottom-[12px] before:left-0 before:z-0 before:content-[''] before:bg-cyan-100 before:h-3 before:w-full"
+                  >
+                    <span class="relative z-10">increase AOV</span>
+                  </span>
+                </h1>
+
+                <p
+                  class="mt-6 text-xl leading-10 text-slate-500 max-md:max-w-full"
+                >
+                  Tired of paying for leads that don't convert? <br />
+                  Optimize inbound and outbound conversion rates <br />with our
+                  expert sales team and our proprietary AI technology.
+                </p>
+              </div>
+            </div>
+            <div class="max-md:w-full">
+              <img
+                src="/images/hero.png"
+                alt="Illustration of a person using a laptop with graphs and charts"
+                width="585px"
+                height="558px"
+                class="m-auto"
+              />
+            </div>
+          </div>
+          <div>
+            <h2
+              class="self-center text-2xl font-semibold text-center text-black mt-7"
+            >
+              Trusted by
+            </h2>
+            <div
+              class="flex justify-around w-full gap-5 mt-6 max-md:flex-wrap max-md:max-w-full"
+            >
+              <img src="/images/svg/acme.svg" alt="Trusted company logo 1" />
+              <img src="/images/svg/aven.svg" alt="Trusted company logo 2" />
+              <img
+                src="/images/svg/asgardia.svg"
+                alt="Trusted company logo 3"
+              />
+              <img src="/images/svg/atica.svg" alt="Trusted company logo 4" />
+              <img src="/images/svg/amara.svg" alt="Trusted company logo 5" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="w-full h-full min-h-screen px-16 pt-12 pb-8 max-md:px-5 bg-gray-50"
+      >
+        <div
+          class="grid md:grid-cols-2 grid-cols-1 gap-12 my-1.5 w-full mx-auto max-w-[1140px]"
+        >
+          <article
+            class="flex overflow-hidden relative flex-col px-8 py-14 w-full min-h-[300px] max-md:px-5 bg-sky-900 rounded-2xl max-md:max-w-full transition-shadow hover:shadow-lg"
+          >
+            <img
+              loading="lazy"
+              src="/images/svg/double-circles.svg"
+              alt=""
+              class="absolute inset-0 object-cover size-full"
+            />
+            <h2 class="relative mb-16 text-3xl font-semibold text-gray-50">
+              Upselling your customers doesn't have to be a headache
+            </h2>
+            <p class="relative text-xl leading-9 text-neutral-300 max-md:mt-10">
+              Cater to customer needs by letting AI upsell or you
+            </p>
+          </article>
+
+          <article
+            class="flex flex-col px-8 py-10 transition-shadow bg-white border border-solid rounded-xl hover:shadow-lg border-zinc-200"
+          >
+            <div
+              class="flex justify-center items-center px-3.5 bg-sky-900 h-[60px] rounded-[50px] w-[60px] mb-6"
+            >
+              <img
+                loading="lazy"
+                src="/images/svg/handshake.svg"
+                alt="Improve Icon"
+                width="32px"
+                height="32px"
+              />
+            </div>
+            <h3 class="mb-4 text-xl font-medium text-slate-700">
+              Improve your customer retention
+            </h3>
+            <p class="text-sm leading-7 text-slate-500">
+              We see an 50% increase in customer retention when we sell them
+              another service. If you don't have your upselling optimized, it
+              could be costing you revenue.
+            </p>
+          </article>
+
+          <article
+            class="flex flex-col px-8 py-10 transition-shadow bg-white border border-solid rounded-xl hover:shadow-lg border-zinc-200"
+          >
+            <div
+              class="flex justify-center items-center px-3.5 bg-sky-900 h-[60px] rounded-[50px] w-[60px] mb-6"
+            >
+              <img
+                loading="lazy"
+                src="/images/svg/person.svg"
+                alt="Person Icon"
+                width="32px"
+                height="32px"
+              />
+            </div>
+            <h3 class="mb-4 text-xl font-medium text-slate-700">
+              We personalize your customer journey
+            </h3>
+            <p class="text-sm leading-7 text-slate-500">
+              We customize every conversation. No two messages are the same.
+              This drives some serious results. We're talking a 60% engagement
+              rate and a 97% open rate via our SMS campaigns.
+            </p>
+          </article>
+
+          <article
+            class="flex flex-col px-8 py-10 transition-shadow bg-white border border-solid rounded-xl hover:shadow-lg border-zinc-200"
+          >
+            <div
+              class="flex justify-center items-center px-3.5 bg-sky-900 h-[60px] rounded-[50px] w-[60px] mb-6"
+            >
+              <img
+                loading="lazy"
+                src="/images/svg/money.svg"
+                alt="Money Icon"
+                width="32px"
+                height="32px"
+              />
+            </div>
+            <h3 class="mb-4 text-xl font-medium text-slate-700">
+              We only make money if you make more money
+            </h3>
+            <p class="text-sm leading-7 text-slate-500">
+              Low risk, high reward! We work on a commission basis and we only
+              succeed if you succeed.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="flex items-center justify-center px-18 pb-20 pt-8 max-md:px-5"
+      >
+        <div class="mt-1.5 max-w-full w-[770px]">
+          <h2 class="text-3xl font-semibold text-center text-slate-600">
+            Why Choose Us?
+          </h2>
+          <p class="text-xl leading-9 text-center text-slate-900">
+            Elevate Your Upselling Strategy to New Heights
+          </p>
+
+          <div
+            class="relative flex flex-col items-center before:w-1/2 before:border-2 m-auto md:m-0 before:rounded-full before:border-zinc-200 before:content-[''] before:absolute before:bottom-0 before:-left-40 before:z-0 before:-right-5 before:top-1/2 before:-translate-y-1/2 before:aspect-square after:w-[65%] after:border-2 after:rounded-full after:border-zinc-200 after:content-[''] after:absolute after:bottom-0 after:-left-[276px] after:z-0 after:-right-5 after:top-1/2 after:-translate-y-1/2 after:aspect-square"
+          >
+            <article
+              class="flex gap-10 mt-10 max-w-full w-[415px] z-10 md:ml-auto"
+            >
+              <div
+                class="md:mt-14 before:content-none md:before:content-[''] before:-translate-x-1/2 before:bg-[url('/images/svg/line-dashed.svg')] before:absolute before:border-l-4 before:border-dashed before:bottom-0 before:left-1/2 before:z-0 before:top-24 before:w-1"
+              >
+                <div
+                  class="px-5 py-2 relative font-black leading-6 text-white whitespace-nowrap bg-sky-900 rounded-[60px]"
+                >
+                  01
+                </div>
+              </div>
+              <div class="flex flex-col w-full leading-6 bg-white grow">
+                <img
+                  loading="lazy"
+                  src="/images/svg/customize.svg"
+                  alt="Icon"
+                  width="40px"
+                  height="40px"
+                  class="mb-3"
+                />
+                <h3 class="mb-4 text-xl font-semibold text-slate-700">
+                  Customized for you
+                </h3>
+                <p class="text-sm text-slate-500">
+                  We tailor our services to align with your unique business
+                  needs and tone. We ensure easy and smooth integration with
+                  your current operational systems for minimal disruption.
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="flex gap-10 max-w-full w-[415px] md:mr-auto mt-14 z-10"
+            >
+              <div
+                class="px-5 py-2 h-fit z-10 font-black leading-6 text-white whitespace-nowrap bg-sky-900 rounded-[60px] md:mt-14"
+              >
+                02
+              </div>
+              <div class="flex flex-col w-full leading-6 md:-order-1">
+                <img
+                  loading="lazy"
+                  src="/images/svg/competition.svg"
+                  alt="Icon"
+                  width="40px"
+                  height="40px"
+                  class="mb-3 md:ml-auto"
+                />
+                <h3
+                  class="mb-4 text-xl font-semibold text-slate-700 md:text-right"
+                >
+                  Competitive Advantage
+                </h3>
+                <p class="text-sm text-slate-500 md:text-right">
+                  We keep your business ahead of the curve with advanced
+                  technologies in customer engagement and sales strategies. We
+                  also adhere to industry standard data security and privacy.
+                  You can rest at ease knowing your campaign is handled end to
+                  end.
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="flex gap-10 max-w-full mt-14 w-[415px] md:ml-auto relative md:before:content-[''] before:top-1/2 before:absolute before:w-16 z-10 before:bg-white before:bottom-0"
+            >
+              <div
+                class="px-5 py-2 h-fit z-10 font-black leading-6 text-white whitespace-nowrap bg-sky-900 rounded-[60px] md:mt-14"
+              >
+                03
+              </div>
+              <div class="flex flex-col w-full leading-6 bg-white">
+                <img
+                  loading="lazy"
+                  src="/images/svg/scale.svg"
+                  alt="Icon"
+                  width="40px"
+                  height="40px"
+                  class="mb-3"
+                />
+                <h3 class="mb-4 text-xl font-semibold text-slate-700">
+                  Scalability for high volume campaigns
+                </h3>
+                <p class="text-sm text-slate-500">
+                  We effectively manage a large number of customer interactions,
+                  maintaining service even during peak periods.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="flex items-center justify-center w-full px-16 py-20 bg-gray-50 max-md:px-5"
+      >
+        <div class="mb-1.5 mt-8 w-full max-w-[1140px]">
+          <h2 class="text-3xl font-semibold text-center text-slate-600">
+            Meet our team
+          </h2>
+
+          <ul
+            class="grid grid-cols-1 gap-12 mt-12 md:grid-cols-2 lg:grid-cols-4"
+          >
+            <li class="flex flex-col text-sm">
+              <img
+                src="/images/thomas.png"
+                class="overflow-hidden rounded-xl"
+                alt="Thomas Lundberg"
+              />
+              <h3 class="mt-6 text-base font-medium leading-6 text-slate-600">
+                Thomas Lundberg
+              </h3>
+              <p class="leading-6 text-slate-500">Ace Owner</p>
+              <a
+                href="#"
+                class="flex gap-2.5 justify-center p-3 mt-8 font-semibold rounded-lg bg-slate-200 text-slate-800 max-md:pr-5"
+              >
+                <span>Read endorsement</span>
+                <img
+                  src="/images/svg/arrow.svg"
+                  alt="Read more"
+                  width="24px"
+                  height="24px"
+                />
+              </a>
+            </li>
+
+            <li class="flex flex-col text-sm">
+              <img
+                src="/images/ivan.png"
+                class="overflow-hidden rounded-xl"
+                alt="Ivan Nikolaichuk"
+              />
+              <h3 class="mt-6 text-base font-medium leading-6 text-slate-600">
+                Ivan Nikolaichuk
+              </h3>
+              <p class="leading-6 text-slate-500">Ace Co-owner</p>
+              <a
+                href="#"
+                class="flex gap-2.5 justify-center p-3 mt-8 font-semibold rounded-lg bg-slate-200 text-slate-800 max-md:pr-5"
+              >
+                <span>Read endorsement</span>
+                <img
+                  src="/images/svg/arrow.svg"
+                  alt="Read more"
+                  width="24px"
+                  height="24px"
+                />
+              </a>
+            </li>
+
+            <li class="flex flex-col text-sm">
+              <img
+                src="/images/allan.png"
+                class="overflow-hidden rounded-xl"
+                alt="Allan"
+              />
+              <h3 class="mt-6 text-base font-medium leading-6 text-slate-600">
+                Allan
+              </h3>
+              <p class="leading-6 text-slate-500">Software Developer</p>
+              <a
+                href="#"
+                class="flex gap-2.5 justify-center p-3 mt-8 font-semibold rounded-lg bg-slate-200 text-slate-800 max-md:pr-5"
+              >
+                <span>Read endorsement</span>
+                <img
+                  src="/images/svg/arrow.svg"
+                  alt="Read more"
+                  width="24px"
+                  height="24px"
+                />
+              </a>
+            </li>
+
+            <li class="flex flex-col text-sm">
+              <img
+                src="/images/lauren.png"
+                class="overflow-hidden rounded-xl"
+                alt="Lauren Davis"
+              />
+              <h3 class="mt-6 text-base font-medium leading-6 text-slate-600">
+                Lauren Davis
+              </h3>
+              <p class="leading-6 text-slate-500">Head of Marketing</p>
+              <a
+                href="#"
+                class="flex gap-2.5 justify-center p-3 mt-8 font-semibold rounded-lg bg-slate-200 text-slate-800 max-md:pr-5"
+              >
+                <span>Read endorsement</span>
+                <img
+                  src="/images/svg/arrow.svg"
+                  alt="Read more"
+                  width="24px"
+                  height="24px"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section
+        class="m-auto relative grid grid-cols-1 md:grid-cols-2 pt-24 pb-20 w-full max-w-[1140px] gap-24 max-md:px-5 relartive"
+      >
+        <div
+          class="z-10 flex flex-col justify-end px-10 pt-20 overflow-hidden border border-gray-200 border-solid rounded-md bg-gray-50"
+        >
+          <h2
+            class="self-center text-base font-semibold leading-6 text-center text-slate-600"
+          >
+            <span>Upselling</span>
+            <span>Strategies with our tool</span>
+          </h2>
+          <div
+            class="flex flex-col mt-10 -mb-10 overflow-hidden shadow-sm bg-gray-50 rounded-xl max-md:px-5"
+          >
+            <img
+              loading="lazy"
+              src="/images/upselling.png"
+              alt="Upselling strategies with our tool"
+              class="w-full"
+              width="440px"
+              height="338px"
+            />
+          </div>
+        </div>
+
+        <div class="px-5 my-auto max-md:mt-10">
+          <h2
+            class="mb-12 text-3xl font-semibold leading-10 text-center md:text-start text-slate-600"
+          >
+            Change the way you think about your upselling strategy.
+          </h2>
+
+          <ul class="grid grid-cols-2 gap-x-20 gap-y-20">
+            <li class="text-base font-medium text-center text-slate-500">
+              <img
+                loading="lazy"
+                src="/images/svg/ai.svg"
+                alt="A.I. automated texting"
+                class="mx-auto mb-4"
+                width="60px"
+                height="60px"
+              />
+              <p>A.I. automated texting</p>
+            </li>
+            <li class="text-base font-medium text-center text-slate-500">
+              <img
+                loading="lazy"
+                src="/images/svg/conversion.svg"
+                alt="More conversions"
+                class="mx-auto mb-4"
+                width="60px"
+                height="60px"
+              />
+              <p>More conversions</p>
+            </li>
+
+            <li class="text-base font-medium text-center text-slate-500">
+              <img
+                loading="lazy"
+                src="/images/svg/message.svg"
+                alt="Optimized message"
+                class="mx-auto mb-4"
+                width="60px"
+                height="60px"
+              />
+              <p>Optimized message</p>
+            </li>
+            <li class="text-base font-medium text-center text-slate-500">
+              <img
+                src="/images/svg/time.svg"
+                alt="Optimized timing icon"
+                class="mx-auto mb-4"
+                width="60px"
+                height="60px"
+              />
+
+              <p>Optimized timing</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section
+        class="flex flex-col items-start py-20 max-w-[1140px] mx-auto overflow-hidden"
+      >
+        <h2 class="mt-1.5 text-3xl font-semibold text-slate-600">
+          Frequently Asked Questions
+        </h2>
+        <p class="text-xl leading-9 text-slate-900">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        </p>
+        <div
+          class="flex relative flex-col gap-32 lg:flex-row before:w-1/2 before:border-2 before:rounded-full before:border-zinc-200 before:content-[''] before:absolute before:bottom-0 before:-right-44 before:z-0 before:top-1/2 before:-translate-y-1/2 before:aspect-square after:w-[65%] after:border-2 after:rounded-full after:border-zinc-200 after:content-[''] after:absolute after:bottom-0 after:-right-[356px] after:z-0 after:top-[220px] after:-translate-y-1/2 after:aspect-square"
+        >
+          <ul id="accordion" class="lg:w-[61%]">
+            <li class="py-8 pr-5 border-b border-solid border-zinc-200">
+              <button
+                type="button"
+                class="flex justify-between w-full gap-5 text-lg font-medium text-slate-700 collapse-button"
+              >
+                <h3 class="my-auto text-start">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                </h3>
+                <img
+                  loading="lazy"
+                  src="/images/svg/plus.svg"
+                  alt="Accordion Icon"
+                  width="32px"
+                  height="32px"
+                />
+              </button>
+              <p
+                class="mt-4 overflow-hidden text-sm duration-500 ease-in-out text-slate-500 accordion-item-content transition-height max-h-0"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </li>
+
+            <li class="py-8 pr-5 border-b border-solid border-zinc-200">
+              <button
+                type="button"
+                class="flex justify-between w-full gap-5 text-lg font-medium text-slate-700 collapse-button"
+              >
+                <h3 class="my-auto text-start">
+                  incididunt ut labore et dolore magna aliqua. Ut enim
+                </h3>
+                <img
+                  loading="lazy"
+                  src="/images/svg/plus.svg"
+                  alt="Accordion Icon"
+                  width="32px"
+                  height="32px"
+                />
+              </button>
+              <p
+                class="mt-4 overflow-hidden text-sm duration-500 ease-in-out text-slate-500 accordion-item-content transition-height max-h-0"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </li>
+
+            <li class="py-8 pr-5 border-b border-solid border-zinc-200">
+              <button
+                type="button"
+                class="flex justify-between w-full gap-5 text-lg font-medium text-slate-700 collapse-button"
+              >
+                <h3 class="my-auto text-start">
+                  nostrud exercitation ullamco laboris nisi ut aliquip ex
+                </h3>
+                <img
+                  loading="lazy"
+                  src="/images/svg/plus.svg"
+                  alt="Accordion Icon"
+                  width="32px"
+                  height="32px"
+                />
+              </button>
+              <p
+                class="mt-4 overflow-hidden text-sm duration-500 ease-in-out text-slate-500 accordion-item-content transition-height max-h-0"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </li>
+
+            <li class="py-8 pr-5 border-b border-solid border-zinc-200">
+              <button
+                type="button"
+                class="flex justify-between w-full gap-5 text-lg font-medium text-slate-700 collapse-button"
+              >
+                <h3 class="my-auto text-start">
+                  Duis aute irure dolor in reprehenderit in voluptate velit
+                </h3>
+                <img
+                  loading="lazy"
+                  src="/images/svg/plus.svg"
+                  alt="Accordion Icon"
+                  width="32px"
+                  height="32px"
+                />
+              </button>
+              <p
+                class="mt-4 overflow-hidden text-sm duration-500 ease-in-out text-slate-500 accordion-item-content transition-height max-h-0"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </li>
+
+            <li class="py-8 pr-5 border-b border-solid border-zinc-200">
+              <button
+                type="button"
+                class="flex justify-between w-full gap-5 text-lg font-medium text-slate-700 collapse-button"
+              >
+                <h3 class="my-auto text-start">
+                  Excepteur sint occaecat cupidatat non proident, sunt
+                </h3>
+                <img
+                  loading="lazy"
+                  src="/images/svg/plus.svg"
+                  alt="Accordion Icon"
+                  width="32px"
+                  height="32px"
+                />
+              </button>
+              <p
+                class="mt-4 overflow-hidden text-sm duration-500 ease-in-out text-slate-500 accordion-item-content transition-height max-h-0"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </li>
+          </ul>
+          <div
+            class="flex z-10 relative flex-col items-center px-8 py-5 m-auto bg-gray-50 rounded-lg border border-solid border-zinc-200 md:w-[39%]"
+          >
+            <img
+              loading="lazy"
+              src="/images/svg/question.svg"
+              alt="Question Icon"
+              width="117px"
+              height="117px"
+            />
+            <h3 class="mt-3.5 text-lg font-medium text-slate-700 mb-2">
+              Have a different Question
+            </h3>
+            <p class="text-sm leading-6 text-center text-slate-500">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore
+            </p>
+            <button
+              type="button"
+              class="flex gap-2.5 justify-center px-8 py-4 mt-6 text-base font-semibold text-white bg-sky-900 rounded-md"
+            >
+              <img
+                loading="lazy"
+                src="/images/svg/call.svg"
+                alt="Call Icon"
+                width="24px"
+                height="24px"
+              />
+              <span>Contact Now</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="flex px-5 py-12 min-h-[268px] items-center justify-center"
+      >
+        <div
+          class="flex md:flex-row flex-col relative px-10 md:px-20 py-12 gap-12 justify-between w-full bg-sky-900 border-2 rounded-[20px] max-w-[1140px] bg-[url('/images/bg-call.png')] bg-no-repeat bg-center bg-cover"
+        >
+          <div class="flex flex-col">
+            <h2
+              class="text-3xl leading-10 text-center text-white md:text-start textfont-medium"
+            >
+              Set up a call with our <br />
+              sales team
+            </h2>
+            <a
+              href="#"
+              class="flex gap-2.5 justify-center px-8 py-5 mt-7 mx-auto md:mx-0 text-base font-semibold text-sky-900 bg-white rounded-md max-w-60"
+            >
+              <img
+                src="/images/svg/call-blue.svg"
+                alt="Book a Call icon"
+                width="19px"
+                width="19px"
+              />
+              <span>Book a Call</span>
+            </a>
+          </div>
+
+          <div
+            class="relative before:w-fit before:border-2 rounded-full m-auto md:m-0 before:rounded-full h-fit before:border-sky-800 before:after:content-[''] before:absolute before:bottom-0 before:left-0 before:z-0 before:-right-5 before:-top-5 before:aspect-square after:content-[''] after:z-10 after:absolute after:w-10 after:h-10 after:bottom-0 after:left-0 after:bg-no-repeat after:bg-[url('/images/svg/call-fulled.svg')]"
+          >
+            <img
+              src="/images/thomas-2.png"
+              alt="Sales team member"
+              class="relative z-10 h-full aspect-square"
+              width="160px"
+              height="160px"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pt-12 mt-12 bg-gray-50 w-full">
+      <div class="justify-center pb-10 w-full mx-auto max-w-[1140px] px-5">
+        <div
+          class="flex gap-5 md:flex-row flex-col md:gap-[120px] justify-between"
+        >
+          <div
+            class="flex flex-col items-center text-sm leading-6 md:items-start text-slate-600 max-md:mt-10 md:max-w-1/5"
+          >
+            <img
+              loading="lazy"
+              src="/images/logo-footer.png"
+              alt="Company logo"
+              width="186px"
+              height="80px"
+              class="mb-6"
+            />
+            <p class="text-center max-w-80 md:max-w-none md:text-start">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut
+            </p>
+          </div>
+
+          <div class="flex flex-col leading-6 whitespace-nowrap text-slate-600">
+            <h3 class="mb-6 text-base font-medium text-slate-700">Company</h3>
+            <a href="#" class="mb-4">About Us</a>
+            <a href="#" class="mb-4">Contact Us</a>
+            <a href="#">Pricing & Packages</a>
+          </div>
+
+          <div class="flex flex-col leading-6 whitespace-nowrap text-slate-600">
+            <h3 class="mb-6 text-base font-medium text-slate-700">
+              Useful Links
+            </h3>
+            <a href="#" class="mb-4">Referral Program</a>
+            <a href="#" class="mb-4">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+          </div>
+
+          <div class="flex flex-col leading-6 whitespace-nowrap text-slate-600">
+            <h3 class="mb-6 text-base font-medium text-slate-700">Contact</h3>
+            <p class="mb-4 text-sm leading-6 text-slate-600">
+              Email: sales@acecooperatives.com
+            </p>
+            <p class="mb-4 text-sm leading-6 text-slate-600">
+              Phone: (571) 207-6477
+            </p>
+            <div class="flex justify-start gap-6">
+              <img
+                loading="lazy"
+                src="/images/svg/fb.svg"
+                alt="Facebook icon"
+                class="w-10 shrink-0 aspect-square"
+              />
+              <img
+                loading="lazy"
+                src="/images/svg/ig.svg"
+                alt="Instagram icon"
+                class="w-10 shrink-0 aspect-square"
+              />
+              <img
+                loading="lazy"
+                src="/images/svg/twitter.svg"
+                alt="Twitter icon"
+                class="w-10 shrink-0 aspect-square"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex justify-center items-center px-2.5 py-4 w-full text-sm font-medium leading-6 bg-gray-200 border-t border-solid border-zinc-200 text-slate-500 max-md:px-5"
+      >
+        <p>© All rights reserved. Ace Cooperatives.</p>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.collapse-button').forEach((button) => {
+          button.addEventListener('click', () => {
+            const accordionContent = button
+              .closest('.border-b')
+              .querySelector('.accordion-item-content');
+
+            if (accordionContent.classList.contains('max-h-0')) {
+              accordionContent.style.maxHeight =
+                accordionContent.scrollHeight + 'px';
+              accordionContent.classList.remove('max-h-0');
+              button.querySelector('img').src = '/images/svg/minus.svg';
+            } else {
+              accordionContent.style.maxHeight = '0';
+              accordionContent.classList.add('max-h-0');
+              button.querySelector('img').src = '/images/svg/plus.svg';
+            }
+          });
+        });
+      });
+    </script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
