@@ -20,6 +20,9 @@ export default {
         neutra: {
           300: '#C2C7D0',
         },
+        blue: {
+          700: '#243757',
+        },
       },
       backgroundImage: {
         'hero-pattern': "url('/images/bg-1.png'), url('/images/bg-2.png')",
