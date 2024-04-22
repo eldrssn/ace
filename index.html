@@ -749,6 +749,134 @@
           </div>
         </div>
       </section>
+      <section
+        class="flex items-center justify-center flex-col w-full py-20 bg-gray-50"
+      >
+        <div
+          class="flex items-center justify-center flex-col mb-1.5 mt-8 w-full max-w-[1180px] px-5"
+        >
+          <h2 class="text-[28px] font-semibold text-center text-slate-600 mb-2">
+            Get Started with Your Upselling Journey
+          </h2>
+          <p class="mb-10 text-xl">
+            Fill out the form, we will get back to you as soon as possible
+          </p>
+
+          <form
+            class="mx-auto flex z-10 relative flex-col items-center py-8 px-5 m-auto bg-gray-50 rounded-lg border border-solid border-zinc-200 w-full md:w-2/3 lg:w-1/2"
+            action=""
+            method="POST"
+            novalidate
+            onsubmit="validateForm(event)"
+          >
+            <div class="relative z-0 w-full mb-5 group">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-slate-600 peer"
+                placeholder=" "
+                required
+                aria-describedby="name-error"
+              />
+              <label
+                for="name"
+                class="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-slate-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >First Name</label
+              >
+              <span class="hidden text-xs text-red-500" id="name-error"
+                >Please enter your name.</span
+              >
+            </div>
+            <div class="relative z-0 w-full mb-5 group">
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-slate-600 peer"
+                required
+                placeholder=" "
+                pattern="^\+?\d{0,13}"
+                aria-describedby="phone-error"
+              />
+              <label
+                for="phone"
+                class="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-slate-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >Phone Number</label
+              >
+              <span class="hidden text-xs text-red-500" id="phone-error"
+                >Please enter your phone correctly.</span
+              >
+            </div>
+
+            <div class="relative z-0 w-full mb-5 group">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                placeholder=" "
+                class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-slate-600 peer"
+                required
+                aria-describedby="email-error"
+              />
+              <label
+                for="email"
+                class="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-slate-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >Email Address</label
+              >
+              <span class="hidden text-xs text-red-500" id="email-error"
+                >Please enter your email correctly.</span
+              >
+            </div>
+
+            <div class="relative z-0 w-full mb-5 group">
+              <textarea
+                name="message"
+                id="message"
+                placeholder=" "
+                class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-slate-600 peer"
+                rows="1"
+              ></textarea>
+              <label
+                for="email"
+                class="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-slate-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >Share your goals or ask us a question...</label
+              >
+            </div>
+
+            <div class="flex flex-col gap-2 mb-10">
+              <label class="inline-flex gap-3 items-center cursor-pointer">
+                <input
+                  type="checkbox"
+                  id="agree-terms"
+                  name="agree_terms"
+                  required
+                  class="sr-only peer"
+                  aria-describedby="agree-terms-error"
+                />
+                <div
+                  class="relative w-11 h-6 bg-slate-100 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-sky-900 rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-slate-700 after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-sky-900 after:border-sky-900 after:border after:rounded-full after:w-5 after:h-5 after:transition-all peer-checked:bg-blue-500"
+                ></div>
+                <span class="text-gray-500 text-sm" for="agree-terms"
+                  >I agree to the
+                  <a href="url-to-terms">Terms of Service</a></span
+                >
+              </label>
+              <span class="hidden text-xs text-red-500" id="agree-terms-error"
+                >To continue, you have to agree with the Terms of Service</span
+              >
+            </div>
+
+            <button
+              class="flex gap-3 justify-center px-6 py-3.5 min-w-52 w-full text-white bg-sky-900 rounded items-center"
+              type="submit"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <footer class="pt-[60px] bg-gray-50 w-full">
@@ -828,6 +956,62 @@
         <p>© All rights reserved. Ace Cooperatives.</p>
       </div>
     </footer>
+    <script>
+      document.getElementById('phone').addEventListener('input', function (e) {
+        let value = e.target.value;
+        value = value.replace(/[^0-9]+/g, '');
+        if (value.startsWith('0') || value.length > 1) {
+          value = '+' + value.replace(/\+/g, '');
+        }
+        e.target.value = value;
+      });
+
+      document.getElementById('email').addEventListener('input', function (e) {
+        const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        const emailError = document.getElementById('email-error');
+        if (!emailPattern.test(e.target.value)) {
+          emailError.classList.remove('hidden');
+        } else {
+          emailError.classList.add('hidden');
+        }
+      });
+
+      function validateForm(event) {
+        event.preventDefault();
+
+        document
+          .querySelectorAll('.error-message')
+          .forEach((el) => el.classList.add('hidden'));
+
+        let isValid = true;
+        if (!document.getElementById('name').checkValidity()) {
+          document.getElementById('name-error').classList.remove('hidden');
+          isValid = false;
+        }
+
+        if (!document.getElementById('phone').checkValidity()) {
+          document.getElementById('phone-error').classList.remove('hidden');
+          isValid = false;
+        }
+
+        if (!document.getElementById('email').checkValidity()) {
+          document.getElementById('email-error').classList.remove('hidden');
+          isValid = false;
+        }
+
+        if (!document.getElementById('agree-terms').checkValidity()) {
+          document
+            .getElementById('agree-terms-error')
+            .classList.remove('hidden');
+          isValid = false;
+        }
+
+        if (isValid) {
+          event.target.submit();
+        }
+      }
+    </script>
+
     <script>
       const padding = 30;
       document.addEventListener('DOMContentLoaded', () => {

@@ -5,3 +5,11 @@
 *, button {
   font-family: Poppins, sans-serif;
 }
+
+.error-message {
+  color: #b91c1c;
+  display: none;
+}
+.error-message:not(.hidden) {
+  display: block;
+}
